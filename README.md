@@ -86,7 +86,7 @@ Dashboard admin Starlink tidak menyediakan fitur export data penggunaan pelangga
 
 | Field | Deskripsi | Contoh |
 |-------|-----------|--------|
-| `nama_penggilan` | Nama pelanggan (CRT ID) | CRT2407010378 - BEI Palu |
+| `nama_penggilan` | Nama pelanggan (CRT ID) | Cabangxxxx - xxx xxxx |
 | `service_line_id` | ID Service Line | SL-1487967-51585-91 |
 | `kuota_terpakai_gb` | Kuota yang sudah digunakan | 728 |
 | `kuota_total_gb` | Total kuota bulanan | 1000 |
