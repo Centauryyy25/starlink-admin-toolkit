@@ -188,7 +188,7 @@ starlink-usage-extractor/
 
 ```bash
 # Clone dari repository
-git clone https://github.com/your-username/starlink-usage-extractor.git
+git clone https://github.com/Centauryyy25/starlink-admin-toolkit
 
 # ATAU download ZIP dan extract
 ```
@@ -381,9 +381,7 @@ Jika menemukan bug, silakan:
 2. **Screenshot error** yang muncul
 3. **Catat langkah** reproduce bug
 4. **Hubungi developer:**
-   - 📧 Email: [your-email@example.com]
-   - 💬 GitHub Issues: [Link ke issues]
-   - 📱 Telegram: [@your_username]
+   - 💬 GitHub Issues: [[Link ke issues](https://github.com/Centauryyy25/starlink-admin-toolkit/issues)]
 
 ### Format Bug Report
 
