@@ -457,6 +457,6 @@ MIT License - Silakan digunakan dan dimodifikasi sesuai kebutuhan.
 
 **Made with 🔥 for EOS BSI**
 
-⭐ Star this repo jika berguna!
+⭐ Star this repo jika bernafas
 
 </div>
