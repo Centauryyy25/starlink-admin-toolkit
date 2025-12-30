@@ -72,8 +72,8 @@ Panduan lengkap penggunaan Starlink Usage Extractor.
 
 | Field | Contoh |
 |-------|--------|
-| nama_penggilan | CRT2407010378 - BEI Palu |
-| service_line_id | SL-1487967-51585-91 |
+| nama_penggilan | CRT24xxxxx - BEI Palu |
+| service_line_id | SL-1487967-xxxxx-91 |
 | kuota_terpakai_gb | 458 |
 | kuota_total_gb | 500 |
 | kuota_persentase | 92% |
@@ -104,7 +104,7 @@ Panduan lengkap penggunaan Starlink Usage Extractor.
 
 | Field | Contoh |
 |-------|--------|
-| nama | CRT2407010378 - BEI Palu |
+| nama | CRT24xxxxx - BEI Palu |
 | status | Aktif / Alert / Suspended |
 | alerts | 0 / 1 / 2 (jumlah alert) |
 
@@ -178,16 +178,16 @@ starlink_usage_YYYY-MM-DD.csv
 
 ```csv
 no,timestamp,nama_penggilan,service_line_id,kuota_terpakai_gb,kuota_total_gb,kuota_persentase,paket_layanan,lokasi
-1,2024-12-30T12:00:00.000Z,"CRT2407010378 - BEI Palu",SL-1487967-51585-91,458,500,92%,"Langganan Lokal Prioritas","Palu City, Central Sulawesi, Indonesia"
-2,2024-12-30T12:00:00.000Z,"CRT2408003544 - BEI Ambon",SL-1609266-23336-78,312,500,62%,"Langganan I853J+7C","Kota Ambon, Maluku, Indonesia"
+1,2024-12-30T12:00:00.000Z,"CRT24xxxxx - BEI Palu",SL-14879x67-xxxxx-xx,458,500,92%,"Langganan Lokal Prioritas","Palu City, Central Sulawesi, Indonesia"
+2,2024-12-30T12:00:00.000Z,"CRT24xxxxxx - BEI Ambon",SL-1609266-xxxxxx-78,312,500,62%,"Langganan I853J+7C","Kota Ambon, Maluku, Indonesia"
 ```
 
 ### Struktur Quick List
 
 ```csv
 no,timestamp,nama,status,alerts
-1,2024-12-30T12:00:00.000Z,"CRT2407010378 - BEI Palu","Aktif",0
-2,2024-12-30T12:00:00.000Z,"CRT2408003544 - BEI Ambon","Alert",1
+1,2024-12-30T12:00:00.000Z,"CRT24xxxxxxx - BEI Palu","Aktif",0
+2,2024-12-30T12:00:00.000Z,"CRT2xxxxxxxx - BEI Ambon","Alert",1
 ```
 
 ---
