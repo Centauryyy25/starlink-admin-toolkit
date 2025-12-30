@@ -222,7 +222,7 @@ Setelah update code:
 
 ```
 1. Login ke Starlink Admin Dashboard
-2. Buka halaman monitoring/customer list
+2. Buka halaman starlink.com/account/dashboard list
 3. Klik icon extension di toolbar
 4. Pilih mode ekstraksi
 5. Klik "Extract Data"
