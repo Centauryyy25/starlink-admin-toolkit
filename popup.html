@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starlink Usage Extractor</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>⚡ Starlink Usage</h1>
+      <p class="subtitle">Ekstrak data usage ke CSV</p>
+    </header>
+
+    <main>
+      <!-- Mode Selector -->
+      <div class="mode-selector">
+        <label class="mode-label">Mode Ekstraksi:</label>
+        <div class="mode-buttons">
+          <button id="mode-single" class="mode-btn active" data-mode="single">
+            <span class="mode-icon">📄</span>
+            <span class="mode-text">Single</span>
+          </button>
+          <button id="mode-quick" class="mode-btn" data-mode="quick">
+            <span class="mode-icon">⚡</span>
+            <span class="mode-text">Quick List</span>
+          </button>
+          <button id="mode-deep" class="mode-btn" data-mode="deep">
+            <span class="mode-icon">🔍</span>
+            <span class="mode-text">Deep Batch</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mode Description -->
+      <div id="mode-desc" class="mode-desc">
+        <span id="mode-desc-text">Ekstrak data dari halaman yang sedang dibuka</span>
+      </div>
+
+      <!-- Status Messages -->
+      <div id="status" class="status hidden">
+        <span class="status-icon"></span>
+        <span class="status-text"></span>
+      </div>
+
+      <!-- Progress Bar (for batch) -->
+      <div id="progress-container" class="progress-container hidden">
+        <div class="progress-header">
+          <span id="progress-label">Mengambil data...</span>
+          <span id="progress-count">0/0</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+      </div>
+
+      <!-- Data Preview -->
+      <div id="data-preview" class="data-preview hidden">
+        <h3>Data Ditemukan:</h3>
+        <div id="preview-content"></div>
+      </div>
+
+      <!-- Extract Button -->
+      <button id="extract-btn" class="btn-primary">
+        <span class="btn-icon">📊</span>
+        <span class="btn-text">Ambil Usage</span>
+      </button>
+
+      <!-- Cancel Button (for batch) -->
+      <button id="cancel-btn" class="btn-cancel hidden">
+        <span>❌</span> Batal
+      </button>
+
+      <!-- Last Extract Info -->
+      <div id="last-extract" class="last-extract hidden">
+        <small>Terakhir: <span id="last-timestamp"></span></small>
+      </div>
+    </main>
+
+    <footer>
+      <p class="hint" id="hint-text">Pastikan Anda sudah login dan berada di halaman dashboard Starlink</p>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
