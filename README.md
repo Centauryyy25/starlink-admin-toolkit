@@ -39,7 +39,7 @@ Extension ini memungkinkan ekstraksi data dalam jumlah besar (batch) tanpa perlu
 ### Target Pengguna
 - 🏢 **Reseller Starlink** - Monitoring penggunaan pelanggan
 - 👨‍💼 **Admin ISP** - Reporting bulanan
-- 🤫 **EOS BSI** - Reporting Per 3 jam
+- 🤫 **Enterprise banking operations** - Reporting Per 3 jam
 
 ---
 
@@ -453,7 +453,7 @@ MIT License - Silakan digunakan dan dimodifikasi sesuai kebutuhan.
 
 <div align="center">
 
-**Made with 🔥 for EOS BSI**
+**Made with 🔥 for Enterprise banking operations**
 
 ⭐ Star this repo jika bernafas
 
